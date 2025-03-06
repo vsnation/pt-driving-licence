@@ -46,6 +46,60 @@
             transform: translateX(-50%);
             white-space: nowrap;
         }
+
+        /* Question Navigation - Better for Mobile */
+        .question-nav {
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            overflow-x: auto;  /* Enables horizontal scrolling */
+            white-space: nowrap; /* Prevents wrapping */
+            padding-bottom: 10px;
+            scrollbar-width: none; /* Hide scrollbar on Firefox */
+        }
+
+        .question-nav::-webkit-scrollbar {
+            display: none; /* Hide scrollbar on Chrome & Safari */
+        }
+
+        /* Make question buttons smaller on mobile */
+        @media (max-width: 768px) {
+            .question-nav {
+                justify-content: flex-start; /* Align to the left */
+                padding-left: 10px;
+            }
+            .question-nav button {
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+            }
+        }
+
+        /* Ensure Footer Doesn't Overlap Content */
+        body {
+            padding-bottom: 60px;
+        }
+
+        /* Answer Buttons - Better Touch Size */
+        .answer-btn {
+            width: 100%;
+            font-size: 18px;
+            padding: 12px;
+            margin-bottom: 15px;
+        }
+
+        /* Responsive Question Image */
+        #question-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Bigger Dropdown for Mobile */
+        #language-select {
+            font-size: 18px;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
