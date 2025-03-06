@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving Test Practice</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .answer-btn {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .correct {
+            background-color: #28a745 !important;
+            color: white;
+        }
+        .incorrect {
+            background-color: #dc3545 !important;
+            color: white;
+        }
+        .question-nav {
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .question-nav button {
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .tooltip-hover {
+            position: relative;
+            display: inline-block;
+        }
+        .tooltip-hover:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            background: black;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">🚗 Driving Test Practice</h1>
+
+        <div class="text-center">
+            <label for="language-select">🌍 Select Language:</label>
+            <select id="language-select" class="form-select w-auto d-inline" onchange="changeLanguage()">
+                <option value="pt">Portuguese (PT)</option>
+                <option value="ru">Russian (RU)</option>
+                <option value="en">English (EN)</option>
+            </select>
+            <button class="btn btn-primary mt-3" onclick="startTest()">Start Test</button>
+        </div>
+
+        <div id="test-area" class="mt-4" style="display: none;">
+            <h4 id="question-counter" class="text-center"></h4>
+            <h5 class="text-center text-danger">Mistakes: <span id="mistakes-counter">0</span>/3</h5>
+            <div class="question-nav"></div>
+            <img id="question-image" class="img-fluid d-block mx-auto my-3" style="max-height: 300px; display: none;"/>
+            <p id="question-text" class="text-center tooltip-hover"></p>
+            <div id="answers-container" class="text-center mt-3"></div>
+        </div>
+    </div>
+
+    <script>
+        let questions = [];
+        let currentQuestionIndex = 0;
+        let mistakes = 0;
+        let selectedLanguage = "pt";
+        const TOTAL_QUESTIONS = 30;
+        const MAX_MISTAKES = 3;
+        let selectedQuestions = [];
+
+        async function fetchQuestions() {
+            const response = await fetch('https://raw.githubusercontent.com/vsnation/pt-driving-licence/main/questions_data_translated.json');
+            questions = await response.json();
+        }
+
+        function startTest() {
+            selectedQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, TOTAL_QUESTIONS);
+            currentQuestionIndex = 0;
+            mistakes = 0;
+            document.getElementById('mistakes-counter').innerText = mistakes;
+            document.getElementById('test-area').style.display = 'block';
+            renderNavigation();
+            nextQuestion();
+        }
+
+        function changeLanguage() {
+            selectedLanguage = document.getElementById('language-select').value;
+            nextQuestion();
+        }
+
+        function renderNavigation() {
+            let navContainer = document.querySelector('.question-nav');
+            navContainer.innerHTML = "";
+            for (let i = 0; i < TOTAL_QUESTIONS; i++) {
+                let btn = document.createElement("button");
+                btn.innerText = i + 1;
+                btn.className = "btn btn-sm btn-outline-secondary";
+                btn.onclick = function() {
+                    currentQuestionIndex = i;
+                    nextQuestion();
+                };
+                navContainer.appendChild(btn);
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex >= TOTAL_QUESTIONS) {
+                alert(`Test Finished! Mistakes: ${mistakes}/${MAX_MISTAKES}`);
+                return;
+            }
+
+            let data = selectedQuestions[currentQuestionIndex];
+            document.getElementById('question-counter').innerText = `Question ${currentQuestionIndex + 1} / ${TOTAL_QUESTIONS}`;
+            document.getElementById('question-text').innerText = data.question[selectedLanguage] || data.question.pt;
+            document.getElementById('question-text').setAttribute("data-tooltip", data.question.pt);
+            document.getElementById('mistakes-counter').innerText = mistakes;
+
+            document.getElementById('question-image').src = `https://raw.githubusercontent.com/vsnation/pt-driving-licence/main/images/${data.question_number}.jpg`;
+            document.getElementById('question-image').style.display = 'block';
+
+            let answersContainer = document.getElementById('answers-container');
+            answersContainer.innerHTML = "";
+            data.answers.forEach(answer => {
+                let btn = document.createElement("button");
+                btn.innerText = `${answer.option}. ${answer.text[selectedLanguage] || answer.text.pt}`;
+                btn.className = "btn btn-outline-primary answer-btn tooltip-hover";
+                btn.setAttribute("data-tooltip", answer.text.pt);
+                btn.onclick = function() { submitAnswer(answer.option, btn, data.correct_answer) };
+                answersContainer.appendChild(btn);
+            });
+        }
+
+        function submitAnswer(selectedOption, btn, correctAnswer) {
+            let isCorrect = selectedOption === correctAnswer;
+            if (!isCorrect) mistakes++;
+
+            document.getElementById('mistakes-counter').innerText = mistakes;
+            if (mistakes >= MAX_MISTAKES) {
+                alert(`You failed the test! Mistakes: ${mistakes}/${MAX_MISTAKES}`);
+                return;
+            }
+
+            if (isCorrect) {
+                btn.classList.remove("btn-outline-primary");
+                btn.classList.add("correct");
+            } else {
+                btn.classList.remove("btn-outline-primary");
+                btn.classList.add("incorrect");
+
+                document.querySelectorAll('.answer-btn').forEach(button => {
+                    if (button.innerText.startsWith(correctAnswer)) {
+                        button.classList.remove("btn-outline-primary");
+                        button.classList.add("correct");
+                    }
+                });
+            }
+
+            setTimeout(() => {
+                currentQuestionIndex++;
+                nextQuestion();
+            }, 1000);
+        }
+
+        fetchQuestions();
+    </script>
+</body>
+</html>
