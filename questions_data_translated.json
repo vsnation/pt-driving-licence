@@ -890,20 +890,26 @@
     {
         "question_number": 3676,
         "question": {
-            "pt": "As marcas rodoviárias que se encontram no pavimento indicam-me curva perigosa à esquerda."
+            "pt": "As marcas rodoviárias que se encontram no pavimento indicam-me curva perigosa à esquerda.",
+            "ru": "Дорожная разметка на покрытии указывает на опасный поворот налево.",
+            "en": "The road markings on the pavement indicate a dangerous left turn."
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "A afirmação é falsa."
+                    "pt": "A afirmação é falsa.",
+                    "ru": "Утверждение ложное.",
+                    "en": "The statement is false."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "A afirmação é verdadeira."
+                    "pt": "A afirmação é verdadeira.",
+                    "ru": "Утверждение верное.",
+                    "en": "The statement is true."
                 },
                 "correct": false
             }
@@ -913,27 +919,35 @@
     {
         "question_number": 3677,
         "question": {
-            "pt": "Atendendo a que nenhum dos veículos que se encontra neste cruzamento pretende mudar de direcção, qual o veículo que passa em primeiro lugar?"
+            "pt": "Atendendo a que nenhum dos veículos que se encontra neste cruzamento pretende mudar de direcção, qual o veículo que passa em primeiro lugar?",
+            "ru": "Учитывая, что ни одно из транспортных средств на этом перекрёстке не собирается менять направление, какое транспортное средство проедет первым?",
+            "en": "Considering that none of the vehicles at this intersection intend to change direction, which vehicle goes first?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "O meu veículo."
+                    "pt": "O meu veículo.",
+                    "ru": "Мой автомобиль.",
+                    "en": "My vehicle."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "O veículo cinzento."
+                    "pt": "O veículo cinzento.",
+                    "ru": "Серый автомобиль.",
+                    "en": "The grey vehicle."
                 },
                 "correct": true
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "O veículo de cor preta."
+                    "pt": "O veículo de cor preta.",
+                    "ru": "Черный автомобиль.",
+                    "en": "The black vehicle."
                 },
                 "correct": false
             }
@@ -943,27 +957,35 @@
     {
         "question_number": 3678,
         "question": {
-            "pt": "Cheguei à passagem estreita em primeiro lugar, o que deve fazer o condutor do veículo dos bombeiros?"
+            "pt": "Cheguei à passagem estreita em primeiro lugar, o que deve fazer o condutor do veículo dos bombeiros?",
+            "ru": "Я первым прибыл к узкому проезду. Что должен сделать водитель пожарного автомобиля?",
+            "en": "I arrived at the narrow passage first. What should the fire truck driver do?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Avançar em primeiro lugar."
+                    "pt": "Avançar em primeiro lugar.",
+                    "ru": "Двигаться первым.",
+                    "en": "Move forward first."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Ceder a passagem."
+                    "pt": "Ceder a passagem.",
+                    "ru": "Уступить дорогу.",
+                    "en": "Give way."
                 },
                 "correct": true
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Fazer sinais de luzes e só depois avançar."
+                    "pt": "Fazer sinais de luzes e só depois avançar.",
+                    "ru": "Подать световые сигналы и только потом двигаться.",
+                    "en": "Flash the lights and then proceed."
                 },
                 "correct": false
             }
@@ -973,27 +995,35 @@
     {
         "question_number": 3679,
         "question": {
-            "pt": "Cheguei ao troço em primeiro lugar. O que devo fazer?"
+            "pt": "Cheguei ao troço em primeiro lugar. O que devo fazer?",
+            "ru": "Я первым прибыл на этот участок. Что мне следует делать?",
+            "en": "I arrived at this section first. What should I do?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Avançar."
+                    "pt": "Avançar.",
+                    "ru": "Двигаться вперед.",
+                    "en": "Move forward."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Ceder a passagem."
+                    "pt": "Ceder a passagem.",
+                    "ru": "Уступить дорогу.",
+                    "en": "Give way."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Recuar se necessário, de modo a ceder a passagem."
+                    "pt": "Recuar se necessário, de modo a ceder a passagem.",
+                    "ru": "Отступить, если необходимо, чтобы уступить дорогу.",
+                    "en": "Reverse if necessary to give way."
                 },
                 "correct": false
             }
@@ -1003,20 +1033,26 @@
     {
         "question_number": 3681,
         "question": {
-            "pt": "Circulo numa auto-estrada. Tenho o dever de ceder a passagem ao condutor da ambulância?"
+            "pt": "Circulo numa auto-estrada. Tenho o dever de ceder a passagem ao condutor da ambulância?",
+            "ru": "Я еду по автостраде. Должен ли я уступить дорогу водителю скорой помощи?",
+            "en": "I am driving on a highway. Do I have to give way to the ambulance driver?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Não, porque a ambulância deve ceder-me a passagem"
+                    "pt": "Não, porque a ambulância deve ceder-me a passagem.",
+                    "ru": "Нет, потому что скорая помощь должна уступить мне дорогу.",
+                    "en": "No, because the ambulance must yield to me."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Sim, porque circulo em auto-estrada."
+                    "pt": "Sim, porque circulo em auto-estrada.",
+                    "ru": "Да, потому что я еду по автостраде.",
+                    "en": "Yes, because I am driving on a highway."
                 },
                 "correct": false
             }
@@ -1026,27 +1062,35 @@
     {
         "question_number": 3680,
         "question": {
-            "pt": "Circulo numa auto-estrada. Quem tem o dever de ceder a passagem, nesta situação?"
+            "pt": "Circulo numa auto-estrada. Quem tem o dever de ceder a passagem, nesta situação?",
+            "ru": "Я еду по автостраде. Кто обязан уступить дорогу в данной ситуации?",
+            "en": "I am driving on a highway. Who is responsible for yielding in this situation?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Eu."
+                    "pt": "Eu.",
+                    "ru": "Я.",
+                    "en": "I."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "O condutor da ambulância ."
+                    "pt": "O condutor da ambulância.",
+                    "ru": "Водитель скорой помощи.",
+                    "en": "The ambulance driver."
                 },
                 "correct": true
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "O condutor que transitar com maior velocidade."
+                    "pt": "O condutor que transitar com maior velocidade.",
+                    "ru": "Водитель, который движется с большей скоростью.",
+                    "en": "The driver traveling at a higher speed."
                 },
                 "correct": false
             }
@@ -1056,20 +1100,26 @@
     {
         "question_number": 3683,
         "question": {
-            "pt": "Como devo proceder ao circular nesta via pública?"
+            "pt": "Como devo proceder ao circular nesta via pública?",
+            "ru": "Как мне следует действовать при движении по этой дороге?",
+            "en": "How should I proceed when driving on this public road?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Devo ceder a passagem aos veículos que pretendam entrar na via onde circulo."
+                    "pt": "Devo ceder a passagem aos veículos que pretendam entrar na via onde circulo.",
+                    "ru": "Я должен уступить дорогу транспортным средствам, которые хотят въехать на дорогу, по которой я еду.",
+                    "en": "I must yield to vehicles entering the road I am driving on."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Tenho prioridade de passagem sobre os veículos que pretendam entrar nesta via."
+                    "pt": "Tenho prioridade de passagem sobre os veículos que pretendam entrar nesta via.",
+                    "ru": "У меня приоритет перед транспортными средствами, которые хотят въехать на эту дорогу.",
+                    "en": "I have the right of way over vehicles trying to enter this road."
                 },
                 "correct": true
             }
@@ -1079,27 +1129,35 @@
     {
         "question_number": 3682,
         "question": {
-            "pt": "Como deve proceder o condutor do veículo branco?"
+            "pt": "Como deve proceder o condutor do veículo branco?",
+            "ru": "Как должен поступить водитель белого автомобиля?",
+            "en": "How should the driver of the white vehicle proceed?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Deve aguardar que eu lhe ceda a passagem."
+                    "pt": "Deve aguardar que eu lhe ceda a passagem.",
+                    "ru": "Он должен подождать, пока я уступлю ему дорогу.",
+                    "en": "He should wait for me to yield to him."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Deve avançar em primeiro lugar."
+                    "pt": "Deve avançar em primeiro lugar.",
+                    "ru": "Он должен двигаться первым.",
+                    "en": "He should proceed first."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Deve ceder-me a passagem."
+                    "pt": "Deve ceder-me a passagem.",
+                    "ru": "Он должен уступить мне дорогу.",
+                    "en": "He should yield to me."
                 },
                 "correct": true
             }
@@ -1109,34 +1167,44 @@
     {
         "question_number": 3685,
         "question": {
-            "pt": "Como devo proceder face ao condutor que sai do parque de estacionamento?"
+            "pt": "Como devo proceder face ao condutor que sai do parque de estacionamento?",
+            "ru": "Как я должен действовать в отношении водителя, выезжающего с парковки?",
+            "en": "How should I proceed in relation to the driver exiting the parking lot?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Avançar com cuidado observando sempre o seu comportamento."
+                    "pt": "Avançar com cuidado observando sempre o seu comportamento.",
+                    "ru": "Продолжать движение с осторожностью, внимательно наблюдая за его действиями.",
+                    "en": "Proceed carefully while observing his actions."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Ceder-lhe a passagem porque se apresenta pela direita."
+                    "pt": "Ceder-lhe a passagem porque se apresenta pela direita.",
+                    "ru": "Уступить ему дорогу, так как он приближается справа.",
+                    "en": "Yield to him because he is approaching from the right."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Devo buzinar-lhe para que se aperceba da minha presença."
+                    "pt": "Devo buzinar-lhe para que se aperceba da minha presença.",
+                    "ru": "Я должен подать звуковой сигнал, чтобы он заметил мое присутствие.",
+                    "en": "I should honk to make him aware of my presence."
                 },
                 "correct": false
             },
             {
                 "option": "D",
                 "text": {
-                    "pt": "Estou obrigado a parar para que ele passe em primeiro lugar."
+                    "pt": "Estou obrigado a parar para que ele passe em primeiro lugar.",
+                    "ru": "Я обязан остановиться, чтобы он проехал первым.",
+                    "en": "I am required to stop so he can pass first."
                 },
                 "correct": false
             }
@@ -1146,20 +1214,26 @@
     {
         "question_number": 3684,
         "question": {
-            "pt": "Como devo proceder ao entrar nesta rotunda?"
+            "pt": "Como devo proceder ao entrar nesta rotunda?",
+            "ru": "Как мне следует действовать при въезде на этот круговой перекресток?",
+            "en": "How should I proceed when entering this roundabout?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Devo ceder a passagem aos veículos que circulam na rotunda."
+                    "pt": "Devo ceder a passagem aos veículos que circulam na rotunda.",
+                    "ru": "Я должен уступить дорогу транспортным средствам, движущимся по кругу.",
+                    "en": "I must yield to vehicles already in the roundabout."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Tenho prioridade de passagem em relação aos veículos que circulam na rotunda."
+                    "pt": "Tenho prioridade de passagem em relação aos veículos que circulam na rotunda.",
+                    "ru": "У меня приоритет перед транспортными средствами, движущимися по кругу.",
+                    "en": "I have the right of way over vehicles in the roundabout."
                 },
                 "correct": false
             }
@@ -1169,27 +1243,35 @@
     {
         "question_number": 3686,
         "question": {
-            "pt": "Como devo proceder face ao veículo à minha direita que sai de um parque de estacionamento?"
+            "pt": "Como devo proceder face ao veículo à minha direita que sai de um parque de estacionamento?",
+            "ru": "Как мне следует поступить по отношению к автомобилю справа, который выезжает с парковки?",
+            "en": "How should I proceed regarding the vehicle on my right exiting a parking lot?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Avançar com cuidado, até verificar se ele me cede a passagem."
+                    "pt": "Avançar com cuidado, até verificar se ele me cede a passagem.",
+                    "ru": "Двигаться с осторожностью, пока не удостоверюсь, что он уступает мне дорогу.",
+                    "en": "Proceed with caution until I confirm that he yields to me."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Parar."
+                    "pt": "Parar.",
+                    "ru": "Остановиться.",
+                    "en": "Stop."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Reduzir a velocidade e ceder-lhe a passagem."
+                    "pt": "Reduzir a velocidade e ceder-lhe a passagem.",
+                    "ru": "Снизить скорость и уступить ему дорогу.",
+                    "en": "Reduce speed and yield to him."
                 },
                 "correct": false
             }
@@ -1199,34 +1281,44 @@
     {
         "question_number": 3687,
         "question": {
-            "pt": "Como devo proceder na intersecção de que me aproximo?"
+            "pt": "Como devo proceder na intersecção de que me aproximo?",
+            "ru": "Как мне следует действовать на перекрестке, к которому я приближаюсь?",
+            "en": "How should I proceed at the intersection I am approaching?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Abrandar e avançar com cuidado."
+                    "pt": "Abrandar e avançar com cuidado.",
+                    "ru": "Снизить скорость и двигаться осторожно.",
+                    "en": "Slow down and proceed with caution."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Ceder a passagem a todos os veículos a motor que circulem na via de trânsito em que vou entrar."
+                    "pt": "Ceder a passagem a todos os veículos a motor que circulem na via de trânsito em que vou entrar.",
+                    "ru": "Уступить дорогу всем моторным транспортным средствам, движущимся по дороге, на которую я въезжаю.",
+                    "en": "Yield to all motor vehicles traveling on the road I am entering."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Cumprir com a regra geral de cedência de passagem."
+                    "pt": "Cumprir com a regra geral de cedência de passagem.",
+                    "ru": "Соблюдать общее правило уступки дороги.",
+                    "en": "Follow the general right-of-way rule."
                 },
                 "correct": false
             },
             {
                 "option": "D",
                 "text": {
-                    "pt": "Parar e ceder a passagem a todos os veículos que circulem na via de trânsito em que vou entrar."
+                    "pt": "Parar e ceder a passagem a todos os veículos que circulem na via de trânsito em que vou entrar.",
+                    "ru": "Остановиться и уступить дорогу всем транспортным средствам, движущимся по дороге, на которую я въезжаю.",
+                    "en": "Stop and yield to all vehicles traveling on the road I am entering."
                 },
                 "correct": true
             }
@@ -1236,27 +1328,35 @@
     {
         "question_number": 3688,
         "question": {
-            "pt": "Como devo proceder nesta situação?"
+            "pt": "Como devo proceder nesta situação?",
+            "ru": "Как мне следует поступить в этой ситуации?",
+            "en": "How should I proceed in this situation?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Aguardar a passagem do outro veículo porque o cruzamento é possível no local em que me encontro."
+                    "pt": "Aguardar a passagem do outro veículo porque o cruzamento é possível no local em que me encontro.",
+                    "ru": "Подождать, пока другой автомобиль проедет, потому что проезд возможен в месте, где я нахожусь.",
+                    "en": "Wait for the other vehicle to pass because crossing is possible at my location."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Avançar para tentar passar em simultâneo com o outro veículo."
+                    "pt": "Avançar para tentar passar em simultâneo com o outro veículo.",
+                    "ru": "Двигаться вперед, чтобы попытаться проехать одновременно с другим автомобилем.",
+                    "en": "Move forward to try to cross simultaneously with the other vehicle."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Fazer sinais sonoros para que o outro condutor pare."
+                    "pt": "Fazer sinais sonoros para que o outro condutor pare.",
+                    "ru": "Подать звуковые сигналы, чтобы другой водитель остановился.",
+                    "en": "Use sound signals to make the other driver stop."
                 },
                 "correct": false
             }
@@ -1266,27 +1366,35 @@
     {
         "question_number": 3689,
         "question": {
-            "pt": "Como devo proceder no entroncamento de que me aproximo?"
+            "pt": "Como devo proceder no entroncamento de que me aproximo?",
+            "ru": "Как мне следует поступить на пересечении дорог, к которому я приближаюсь?",
+            "en": "How should I proceed at the junction I am approaching?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Avançar, verificando se o outro condutor me cede a passagem."
+                    "pt": "Avançar, verificando se o outro condutor me cede a passagem.",
+                    "ru": "Двигаться вперед, проверяя, уступает ли мне дорогу другой водитель.",
+                    "en": "Proceed while checking if the other driver yields to me."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Ceder a passagem ao outro condutor."
+                    "pt": "Ceder a passagem ao outro condutor.",
+                    "ru": "Уступить дорогу другому водителю.",
+                    "en": "Yield to the other driver."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Seguir a marcha sem necessidade de precauções especiais."
+                    "pt": "Seguir a marcha sem necessidade de precauções especiais.",
+                    "ru": "Продолжить движение без особых предосторожностей.",
+                    "en": "Continue driving without any special precautions."
                 },
                 "correct": false
             }
@@ -1296,20 +1404,26 @@
     {
         "question_number": 3690,
         "question": {
-            "pt": "Como devo proceder perante a aproximação de uma ambulância que circule na via de aceleração e pretenda entrar nesta auto-estrada?"
+            "pt": "Como devo proceder perante a aproximação de uma ambulância que circule na via de aceleração e pretenda entrar nesta auto-estrada?",
+            "ru": "Как мне следует поступить при приближении скорой помощи, движущейся по полосе разгона и собирающейся въехать на эту автостраду?",
+            "en": "How should I proceed when an ambulance is approaching on the acceleration lane and intends to enter this highway?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "A ambulância deve ceder-me a passagem. No entanto, posso abrandar e ceder-lhe a passagem se daí não resultar perigo para todos os utentes da via."
+                    "pt": "A ambulância deve ceder-me a passagem. No entanto, posso abrandar e ceder-lhe a passagem se daí não resultar perigo para todos os utentes da via.",
+                    "ru": "Скорая помощь должна уступить мне дорогу. Однако я могу снизить скорость и уступить ей дорогу, если это не создаст опасности для других участников движения.",
+                    "en": "The ambulance must yield to me. However, I can slow down and let it pass if it does not pose a danger to other road users."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Devo ceder sempre a passagem ao veículo prioritário mesmo que não assinale devidamente a sua marcha."
+                    "pt": "Devo ceder sempre a passagem ao veículo prioritário mesmo que não assinale devidamente a sua marcha.",
+                    "ru": "Я всегда должен уступать дорогу приоритетному транспортному средству, даже если оно не подает соответствующих сигналов.",
+                    "en": "I must always yield to the priority vehicle, even if it does not properly signal its movement."
                 },
                 "correct": false
             }
@@ -1319,27 +1433,35 @@
     {
         "question_number": 3691,
         "question": {
-            "pt": "Como devo proceder perante a sinalização vertical?"
+            "pt": "Como devo proceder perante a sinalização vertical?",
+            "ru": "Как мне следует поступить при наличии вертикальной сигнализации?",
+            "en": "How should I proceed when encountering vertical signage?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Sou obrigado a parar."
+                    "pt": "Sou obrigado a parar.",
+                    "ru": "Я обязан остановиться.",
+                    "en": "I am required to stop."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Tenho prioridade de passagem se mudar de direcção na próxima à direita."
+                    "pt": "Tenho prioridade de passagem se mudar de direcção na próxima à direita.",
+                    "ru": "У меня приоритет проезда, если я поверну направо на следующем перекрестке.",
+                    "en": "I have the right of way if I turn right at the next intersection."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Tenho prioridade de passagem."
+                    "pt": "Tenho prioridade de passagem.",
+                    "ru": "У меня приоритет проезда.",
+                    "en": "I have the right of way."
                 },
                 "correct": false
             }
@@ -1349,27 +1471,35 @@
     {
         "question_number": 3692,
         "question": {
-            "pt": "Como devo proceder perante as marcas rodoviárias que se encontram nesta via pública?"
+            "pt": "Como devo proceder perante as marcas rodoviárias que se encontram nesta via pública?",
+            "ru": "Как мне следует поступить в соответствии с дорожной разметкой на этом участке дороги?",
+            "en": "How should I proceed given the road markings on this public road?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Devo ceder a passagem aos veículos que circulam na via da esquerda."
+                    "pt": "Devo ceder a passagem aos veículos que circulam na via da esquerda.",
+                    "ru": "Я должен уступить дорогу транспортным средствам, движущимся по левой полосе.",
+                    "en": "I must yield to vehicles traveling in the left lane."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Devo passar imediatamente para a via da esquerda porque tenho prioridade."
+                    "pt": "Devo passar imediatamente para a via da esquerda porque tenho prioridade.",
+                    "ru": "Я должен немедленно перестроиться на левую полосу, так как у меня приоритет.",
+                    "en": "I must immediately move to the left lane because I have the right of way."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Tenho prioridade de passagem em relação aos veículos que circulam na via da esquerda."
+                    "pt": "Tenho prioridade de passagem em relação aos veículos que circulam na via da esquerda.",
+                    "ru": "У меня приоритет проезда по сравнению с транспортными средствами, движущимися по левой полосе.",
+                    "en": "I have the right of way over vehicles traveling in the left lane."
                 },
                 "correct": false
             }
@@ -1379,27 +1509,35 @@
     {
         "question_number": 3693,
         "question": {
-            "pt": "Considerando a regra de cedência de passagem, quando posso avançar?"
+            "pt": "Considerando a regra de cedência de passagem, quando posso avançar?",
+            "ru": "Учитывая правило уступки дороги, когда я могу продолжить движение?",
+            "en": "Considering the right-of-way rule, when can I proceed?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Em primeiro lugar."
+                    "pt": "Em primeiro lugar.",
+                    "ru": "В первую очередь.",
+                    "en": "First."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Em segundo lugar."
+                    "pt": "Em segundo lugar.",
+                    "ru": "Во вторую очередь.",
+                    "en": "Second."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Em último lugar."
+                    "pt": "Em último lugar.",
+                    "ru": "В последнюю очередь.",
+                    "en": "Last."
                 },
                 "correct": true
             }
@@ -1409,20 +1547,26 @@
     {
         "question_number": 3694,
         "question": {
-            "pt": "Considerando que o veículo de tracção animal vai mudar de direcção para a esquerda, devo:"
+            "pt": "Considerando que o veículo de tracção animal vai mudar de direcção para a esquerda, devo:",
+            "ru": "Учитывая, что гужевой транспорт намерен повернуть налево, я должен:",
+            "en": "Considering that the animal-drawn vehicle intends to turn left, I must:"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Ceder a passagem à ambulância e ao veículo de tracção animal e avançar."
+                    "pt": "Ceder a passagem à ambulância e ao veículo de tracção animal e avançar.",
+                    "ru": "Уступить дорогу скорой помощи и гужевому транспорту, затем двигаться дальше.",
+                    "en": "Yield to the ambulance and the animal-drawn vehicle, then proceed."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Ceder a passagem à ambulância e avançar."
+                    "pt": "Ceder a passagem à ambulância e avançar.",
+                    "ru": "Уступить дорогу скорой помощи и двигаться дальше.",
+                    "en": "Yield to the ambulance and proceed."
                 },
                 "correct": true
             }
@@ -1432,27 +1576,35 @@
     {
         "question_number": 3695,
         "question": {
-            "pt": "Dada a impossibilidade de cruzamento, quem deve efectuar a manobra de marcha atrás?"
+            "pt": "Dada a impossibilidade de cruzamento, quem deve efectuar a manobra de marcha atrás?",
+            "ru": "Учитывая невозможность разъезда, кто должен выполнить манёвр задним ходом?",
+            "en": "Given the impossibility of passing, who should perform the reverse maneuver?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Eu, porque vou a subir e a manobra é mais fácil."
+                    "pt": "Eu, porque vou a subir e a manobra é mais fácil.",
+                    "ru": "Я, потому что двигаюсь в гору, и этот манёвр проще выполнить.",
+                    "en": "I, because I am going uphill, and the maneuver is easier."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "O condutor do veículo que circula em sentido contrário."
+                    "pt": "O condutor do veículo que circula em sentido contrário.",
+                    "ru": "Водитель автомобиля, движущегося в противоположном направлении.",
+                    "en": "The driver of the vehicle traveling in the opposite direction."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Perante veículos da mesma categoria deve sempre efectuar a manobra o veículo que desce."
+                    "pt": "Perante veículos da mesma categoria deve sempre efectuar a manobra o veículo que desce.",
+                    "ru": "Если транспортные средства одной категории, манёвр всегда должен выполнять тот, кто спускается.",
+                    "en": "Among vehicles of the same category, the vehicle going downhill must always perform the maneuver."
                 },
                 "correct": false
             }
@@ -1462,27 +1614,35 @@
     {
         "question_number": 3696,
         "question": {
-            "pt": "Devido à impossibilidade de cruzamento de automóveis, devo:"
+            "pt": "Devido à impossibilidade de cruzamento de automóveis, devo:",
+            "ru": "Из-за невозможности разъезда автомобилей, я должен:",
+            "en": "Due to the impossibility of vehicles crossing, I must:"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Parar e ceder a passagem ao automóvel pesado."
+                    "pt": "Parar e ceder a passagem ao automóvel pesado.",
+                    "ru": "Остановиться и уступить дорогу грузовому автомобилю.",
+                    "en": "Stop and yield to the heavy vehicle."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Passar o mais rapidamente possível."
+                    "pt": "Passar o mais rapidamente possível.",
+                    "ru": "Проехать как можно быстрее.",
+                    "en": "Pass as quickly as possible."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Prosseguir normalmente a marcha."
+                    "pt": "Prosseguir normalmente a marcha.",
+                    "ru": "Продолжить движение в обычном режиме.",
+                    "en": "Continue driving normally."
                 },
                 "correct": false
             }
@@ -1492,20 +1652,26 @@
     {
         "question_number": 3697,
         "question": {
-            "pt": "Devo ceder a passagem a um veículo que transite em missão urgente de socorro e que pretenda entrar nesta auto-estrada. Concorda com a afirmação?"
+            "pt": "Devo ceder a passagem a um veículo que transite em missão urgente de socorro e que pretenda entrar nesta auto-estrada. Concorda com a afirmação?",
+            "ru": "Должен ли я уступить дорогу автомобилю, выполняющему срочную спасательную миссию и намеревающемуся въехать на эту автостраду? Согласны ли вы с этим утверждением?",
+            "en": "Should I yield to a vehicle on an urgent rescue mission that intends to enter this highway? Do you agree with this statement?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Não, mas posso ceder a passagem se não resultar daí qualquer perigo para todos os utentes da via."
+                    "pt": "Não, mas posso ceder a passagem se não resultar daí qualquer perigo para todos os utentes da via.",
+                    "ru": "Нет, но я могу уступить дорогу, если это не создаст опасности для всех участников движения.",
+                    "en": "No, but I may yield if it does not create any danger for all road users."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Sim, devo ceder sempre a passagem em qualquer circunstância."
+                    "pt": "Sim, devo ceder sempre a passagem em qualquer circunstância.",
+                    "ru": "Да, я всегда должен уступать дорогу в любых обстоятельствах.",
+                    "en": "Yes, I must always yield in all circumstances."
                 },
                 "correct": false
             }
@@ -1515,27 +1681,35 @@
     {
         "question_number": 3698,
         "question": {
-            "pt": "Devo ceder a passagem ao condutor do veículo que se apresenta à minha esquerda?"
+            "pt": "Devo ceder a passagem ao condutor do veículo que se apresenta à minha esquerda?",
+            "ru": "Должен ли я уступить дорогу водителю транспортного средства, которое находится слева от меня?",
+            "en": "Should I yield to the driver of the vehicle approaching from my left?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Não, porque tenho prioridade de passagem."
+                    "pt": "Não, porque tenho prioridade de passagem.",
+                    "ru": "Нет, потому что у меня приоритет проезда.",
+                    "en": "No, because I have the right of way."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Sim, devido à presença do sinal STOP."
+                    "pt": "Sim, devido à presença do sinal STOP.",
+                    "ru": "Да, из-за наличия знака STOP.",
+                    "en": "Yes, due to the presence of the STOP sign."
                 },
                 "correct": true
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Sim, devido à regra geral de cedência de passagem."
+                    "pt": "Sim, devido à regra geral de cedência de passagem.",
+                    "ru": "Да, из-за общего правила уступки дороги.",
+                    "en": "Yes, due to the general right-of-way rule."
                 },
                 "correct": false
             }
@@ -1545,27 +1719,35 @@
     {
         "question_number": 3699,
         "question": {
-            "pt": "Devo ceder a passagem ao condutor do velocípede?"
+            "pt": "Devo ceder a passagem ao condutor do velocípede?",
+            "ru": "Должен ли я уступить дорогу водителю велосипеда?",
+            "en": "Should I yield to the cyclist?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Não, porque se apresenta pela esquerda."
+                    "pt": "Não, porque se apresenta pela esquerda.",
+                    "ru": "Нет, потому что он находится слева.",
+                    "en": "No, because they are coming from the left."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Não."
+                    "pt": "Não.",
+                    "ru": "Нет.",
+                    "en": "No."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Sim."
+                    "pt": "Sim.",
+                    "ru": "Да.",
+                    "en": "Yes."
                 },
                 "correct": true
             }
@@ -1575,27 +1757,35 @@
     {
         "question_number": 3700,
         "question": {
-            "pt": "Devo ceder a passagem ao eléctrico, e só depois poderei avançar."
+            "pt": "Devo ceder a passagem ao eléctrico, e só depois poderei avançar.",
+            "ru": "Я должен уступить дорогу трамваю, и только потом смогу продолжить движение.",
+            "en": "I must yield to the tram, and only then can I proceed."
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Certo, mas só por causa do peão que se encontra à minha frente."
+                    "pt": "Certo, mas só por causa do peão que se encontra à minha frente.",
+                    "ru": "Верно, но только из-за пешехода, находящегося передо мной.",
+                    "en": "Correct, but only because of the pedestrian in front of me."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Certo, pois o eléctrico tem prioridade de passagem."
+                    "pt": "Certo, pois o eléctrico tem prioridade de passagem.",
+                    "ru": "Верно, так как трамвай имеет приоритет проезда.",
+                    "en": "Correct, as the tram has the right of way."
                 },
                 "correct": true
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Errado, pois apresento-me à direita do eléctrico."
+                    "pt": "Errado, pois apresento-me à direita do eléctrico.",
+                    "ru": "Неправильно, так как я нахожусь справа от трамвая.",
+                    "en": "Incorrect, as I am on the right side of the tram."
                 },
                 "correct": false
             }
@@ -1605,27 +1795,35 @@
     {
         "question_number": 3701,
         "question": {
-            "pt": "Devo ceder a passagem ao outro condutor?"
+            "pt": "Devo ceder a passagem ao outro condutor?",
+            "ru": "Должен ли я уступить дорогу другому водителю?",
+            "en": "Should I yield to the other driver?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Não, porque pretende mudar de direcção."
+                    "pt": "Não, porque pretende mudar de direcção.",
+                    "ru": "Нет, потому что он собирается изменить направление движения.",
+                    "en": "No, because they intend to change direction."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Sim, mas apenas porque não posso transpor a marca rodoviária."
+                    "pt": "Sim, mas apenas porque não posso transpor a marca rodoviária.",
+                    "ru": "Да, но только потому, что я не могу пересечь дорожную разметку.",
+                    "en": "Yes, but only because I cannot cross the road markings."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Sim."
+                    "pt": "Sim.",
+                    "ru": "Да.",
+                    "en": "Yes."
                 },
                 "correct": true
             }
@@ -1635,20 +1833,26 @@
     {
         "question_number": 3702,
         "question": {
-            "pt": "Devo ceder a passagem:"
+            "pt": "Devo ceder a passagem:",
+            "ru": "Должен ли я уступить дорогу:",
+            "en": "Should I yield:"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "A todos os veículos que entram numa passagem de nível."
+                    "pt": "A todos os veículos que entram numa passagem de nível.",
+                    "ru": "Всем транспортным средствам, въезжающим на железнодорожный переезд.",
+                    "en": "To all vehicles entering a level crossing."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "A todos os veículos que saiam duma passagem de nível."
+                    "pt": "A todos os veículos que saiam duma passagem de nível.",
+                    "ru": "Всем транспортным средствам, выезжающим с железнодорожного переезда.",
+                    "en": "To all vehicles exiting a level crossing."
                 },
                 "correct": true
             }
@@ -1658,57 +1862,35 @@
     {
         "question_number": 3703,
         "question": {
-            "pt": "Devo ceder a passagem?"
+            "pt": "Devo ceder a passagem?",
+            "ru": "Должен ли я уступить дорогу?",
+            "en": "Should I yield?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Não, porque o velocípede é um veículo sem motor."
+                    "pt": "Não, porque o velocípede é um veículo sem motor.",
+                    "ru": "Нет, потому что велосипед – это немоторизованное транспортное средство.",
+                    "en": "No, because the bicycle is a non-motorized vehicle."
                 },
                 "correct": false
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Sim, porque mudo de direcção."
+                    "pt": "Sim, porque mudo de direcção.",
+                    "ru": "Да, потому что я изменяю направление движения.",
+                    "en": "Yes, because I am changing direction."
                 },
                 "correct": false
             },
             {
                 "option": "C",
                 "text": {
-                    "pt": "Sim, porque saio de um parque de estacionamento."
-                },
-                "correct": true
-            }
-        ],
-        "correct_answer": "C"
-    },
-    {
-        "question_number": 3705,
-        "question": {
-            "pt": "Em que momento deve avançar o veículo de tracção animal."
-        },
-        "answers": [
-            {
-                "option": "A",
-                "text": {
-                    "pt": "Antes do meu veículo e após o motociclo."
-                },
-                "correct": false
-            },
-            {
-                "option": "B",
-                "text": {
-                    "pt": "Em primeiro lugar."
-                },
-                "correct": false
-            },
-            {
-                "option": "C",
-                "text": {
-                    "pt": "Em último lugar."
+                    "pt": "Sim, porque saio de um parque de estacionamento.",
+                    "ru": "Да, потому что я выезжаю с парковки.",
+                    "en": "Yes, because I am exiting a parking lot."
                 },
                 "correct": true
             }
@@ -1718,25 +1900,69 @@
     {
         "question_number": 3704,
         "question": {
-            "pt": "Devo ceder a passagem?"
+            "pt": "Devo ceder a passagem?",
+            "ru": "Должен ли я уступить дорогу?",
+            "en": "Should I yield?"
         },
         "answers": [
             {
                 "option": "A",
                 "text": {
-                    "pt": "Não, porque sai de uma propriedade."
+                    "pt": "Não, porque sai de uma propriedade.",
+                    "ru": "Нет, потому что он выезжает с частной территории.",
+                    "en": "No, because they are exiting a private property."
                 },
                 "correct": true
             },
             {
                 "option": "B",
                 "text": {
-                    "pt": "Sim, porque aquele veículo se apresenta pela direita."
+                    "pt": "Sim, porque aquele veículo se apresenta pela direita.",
+                    "ru": "Да, потому что это транспортное средство приближается справа.",
+                    "en": "Yes, because that vehicle is approaching from the right."
                 },
                 "correct": false
             }
         ],
         "correct_answer": "A"
+    },
+    {
+        "question_number": 3705,
+        "question": {
+            "pt": "Em que momento deve avançar o veículo de tracção animal?",
+            "ru": "В какой момент должен двигаться гужевой транспорт?",
+            "en": "At what point should the animal-drawn vehicle proceed?"
+        },
+        "answers": [
+            {
+                "option": "A",
+                "text": {
+                    "pt": "Antes do meu veículo e após o motociclo.",
+                    "ru": "Перед моим транспортным средством и после мотоцикла.",
+                    "en": "Before my vehicle and after the motorcycle."
+                },
+                "correct": false
+            },
+            {
+                "option": "B",
+                "text": {
+                    "pt": "Em primeiro lugar.",
+                    "ru": "В первую очередь.",
+                    "en": "First."
+                },
+                "correct": false
+            },
+            {
+                "option": "C",
+                "text": {
+                    "pt": "Em último lugar.",
+                    "ru": "В последнюю очередь.",
+                    "en": "Last."
+                },
+                "correct": true
+            }
+        ],
+        "correct_answer": "C"
     },
     {
         "question_number": 3707,
