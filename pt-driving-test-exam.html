@@ -158,7 +158,9 @@
         }
 
         function startTest() {
-            selectedQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, TOTAL_QUESTIONS);
+            let availableQuestions = questions.filter(q => q.question[selectedLanguage]); // Keep only questions in chosen language
+            selectedQuestions = availableQuestions.sort(() => 0.5 - Math.random()).slice(0, TOTAL_QUESTIONS);
+            // selectedQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, TOTAL_QUESTIONS);
             currentQuestionIndex = 0;
             mistakes = 0;
             document.getElementById('mistakes-counter').innerText = mistakes;
